@@ -34,7 +34,9 @@ rootProject.allprojects {
 
 apply plugin: 'com.android.library'
 
-android {
+android {  
+    namespace "com.arthenica.flutter.ffmpeg"  // ← 네임스페이스 추가
+ 
     compileSdkVersion 29
 
     defaultConfig {
